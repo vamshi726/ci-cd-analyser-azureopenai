@@ -1,0 +1,23 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - echo "Building project..."
+    - echo "Build completed!"
+
+test_job:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - echo "❌ Simulating test failure now"
+    - exit 1   # <-- This will fail the job intentionally
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Deploying..."
+    - echo "This will NOT run because test_job fails"
