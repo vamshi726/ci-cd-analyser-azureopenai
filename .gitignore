@@ -1,0 +1,103 @@
+# --- Python & FastAPI ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+build/
+dist/
+*.egg-info/
+
+# --- Environment & Secrets (CRITICAL) ---
+# Never push your API keys (OpenAI, Anthropic, etc.) to GitHub
+.env
+.flaskenv
+*.env.local
+*.env.shared
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.log
+
+# --- OS & IDE Specific ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Multi-Agent / Data Specific ---
+# If your agents generate local logs or databases
+*.db
+*.sqlite3
+*.sqlite
+
+outputs/
+logs/
+temp/
+tmp/
+.pyc
+
+# --- Additional Python Files ---
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.cache
+.dmypy.json
+dmypy.json
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Documentation ---
+docs/_build/
+site/
+.sphinx/
+
+# --- Package Management ---
+Pipfile.lock
+poetry.lock
+.pdm.toml
+
+# --- Temporary & Backup Files ---
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+*.orig
+
+# --- Media & Upload Files ---
+media/
+uploads/
+static/uploads/
+
+# --- Node.js (if using any frontend tools) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# --- Cloud & Deployment ---
+.terraform/
+*.tfstate
+*.tfstate.*
+.vagrant/
+.docker/
+.kubernetes/
+
+# --- Monitoring & Profiling ---
+.prof
+*.profile
+.monitoring/

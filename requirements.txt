@@ -1,0 +1,29 @@
+# Core Framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.0
+python-dotenv==1.0.1
+
+# GitLab Integration
+requests==2.32.3
+python-gitlab==4.11.1
+
+# LangChain & LangGraph
+langchain==0.3.7
+langchain-openai==0.2.9
+langchain-community==0.3.7
+langgraph==0.2.45
+
+# Azure OpenAI
+openai==1.54.3
+
+# RAG & Embeddings
+chromadb==0.5.20
+sentence-transformers==3.3.1
+
+# Database
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+
+# Utilities
+python-json-logger==2.0.7
