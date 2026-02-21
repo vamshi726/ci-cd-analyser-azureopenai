@@ -1,6 +1,6 @@
 # CI/CD Test Failure Root Cause Analyzer
 
-**AI-Powered CI/CD Productivity Agent for UBS DevCloud (GitLab)**
+**AI-Powered CI/CD Productivity Agent for (GitLab)**
 
 Automatically analyzes CI/CD pipeline failures, classifies root causes, and suggests fixes using LangGraph agents, RAG, and Azure OpenAI.
 
@@ -150,7 +150,7 @@ FINAL RCA REPORT
 
 ### Knowledge Base (RAG)
 
-Pre-seeded with 10 common UBS CI failure patterns:
+Pre-seeded with 10 common CI failure patterns:
 - TerraformFormatError
 - VaultNamespaceMismatch
 - NexusPermissionDenied
@@ -260,7 +260,7 @@ frontend/
 - ✅ Read-only AI (never modifies code)
 - ✅ No PII processing
 - ✅ Full audit trail in SQLite
-- ✅ Azure OpenAI only (UBS tenant)
+- ✅ Azure OpenAI only ( tenant)
 - ✅ Suggestions only, not automated changes
 
 ## 📈 Metrics
@@ -322,7 +322,7 @@ For questions or issues during TechnoHunt:
 
 ## 🏆 Why This Wins
 
-✅ **Real UBS Pain** - Every team faces CI failures daily  
+✅ **Real  Pain** - Every team faces CI failures daily  
 ✅ **Clear Metrics** - 45 min → 6 min (87% reduction)  
 ✅ **Correct AI Use** - LangGraph agents, not a chatbot  
 ✅ **Production-Ready** - FastAPI, Azure OpenAI, async DB  
